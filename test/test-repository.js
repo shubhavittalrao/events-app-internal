@@ -15,7 +15,7 @@ describe('Testing Get Events', function () {
     it('should return mock events when no data in db ', function () {
         repo.getEvents(db).then(
             (data) => {
-                chai.expect(data.events[0].title).to.equal('a mock event');
+                chai.expect(data.events[0].title).to.equal('a mock shubha event');
             }
         )
     });
